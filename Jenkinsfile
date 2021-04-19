@@ -11,6 +11,7 @@ pipeline {
         }
         stage('Deploy'){
             steps {
+                bat 'npm install'
             }
         }
     }
