@@ -10,9 +10,7 @@ pipeline {
             }
         }
         stage('Deploy'){
-            steps{
-                bat 'npm run deploy'
-            }
+     
         }
     }
 }
