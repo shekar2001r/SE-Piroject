@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "nodemon test --env=jsdom"
+    "deploy": "node index.js"
   },
   "repository": {
     "type": "git",
