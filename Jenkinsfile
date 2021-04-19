@@ -14,4 +14,5 @@ pipeline {
                 bat 'npm start'
             }
         }
+    }
 }
