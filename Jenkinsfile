@@ -14,6 +14,6 @@ pipeline {
                 bat 'npm run cypress'
             }
         }
-        
+    }
         
 }
