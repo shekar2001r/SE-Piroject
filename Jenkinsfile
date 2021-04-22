@@ -11,18 +11,9 @@ pipeline {
         }
         stage('Test'){
             steps {
-                bat 'npm install'
+                bat 'npm run cypress'
             }
         }
-        stage('Deploy'){
-            steps {
-                bat 'npm install'
-            }
-        }
-        stage('Release'){
-            steps {
-                bat 'npm install'
-            }
-        }
-    }
+        
+        
 }
